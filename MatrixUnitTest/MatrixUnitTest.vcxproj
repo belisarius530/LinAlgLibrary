@@ -89,7 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Fish\Source\Repos\LinAlgLibrary\ConsoleApplication1\x64\Debug;C:\Users\Fish\Source\Repos\LinAlgLibrary\ConsoleApplication1\x64;C:\Users\Fish\Source\Repos\LinAlgLibrary\ConsoleApplication1;C:\Users\Fish\Documents\GoogleTest\googletest-master\googletest\include;C:\Users\Fish\Documents\GoogleTest\googletest-master\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\ConsoleApplication1\x64\Debug;..\ConsoleApplication1\x64;..\ConsoleApplication1;..\..\..\Documents\GoogleTest\googletest-master\googletest\include;..\..\..\Documents\GoogleTest\googletest-master\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
