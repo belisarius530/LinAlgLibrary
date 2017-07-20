@@ -89,7 +89,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\ConsoleApplication1\x64\Debug;..\ConsoleApplication1\x64;..\ConsoleApplication1;..\..\..\Documents\GoogleTest\googletest-master\googletest\include;..\..\..\Documents\GoogleTest\googletest-master\googletest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\LinAlgLibrary;..\lib\googletest\googletest\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -146,11 +146,11 @@
     <ClCompile Include="MatrixUnitTest.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleApplication1\ConsoleApplication1.vcxproj">
-      <Project>{40d74fb4-3643-4cae-a6fb-fd4983829cc4}</Project>
-    </ProjectReference>
-    <ProjectReference Include="..\GoogleTest\GoogleTest.vcxproj">
+    <ProjectReference Include="..\lib\GoogleTestBuild\GoogleTest.vcxproj">
       <Project>{b1dd4bba-fec2-4cef-ad71-c5b5b07d77ba}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\LinAlgLibrary\LinAlgLibrary.vcxproj">
+      <Project>{40d74fb4-3643-4cae-a6fb-fd4983829cc4}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

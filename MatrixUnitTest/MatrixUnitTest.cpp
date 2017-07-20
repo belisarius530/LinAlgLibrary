@@ -3,9 +3,10 @@
 #include "Matrix.h"
 #include "gtest/gtest.h"
 
-TEST(testMatrix, simpleTest) {
+TEST(testMatrix, createMatrix) {
 	Matrix A = Matrix(1, 2);
-	EXPECT_EQ(1,A.numCols);
+	EXPECT_EQ(1, A.numRows);
+	EXPECT_EQ(2, A.numCols);
 }
 
 //int main(int ac, char*av[])

@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>..\..\..\Documents\GoogleTest\googletest-master\googletest\include;..\..\..\Documents\GoogleTest\googletest-master\googletest;$(IncludePath)</IncludePath>
+    <IncludePath>..\googletest\googletest\include;..\googletest\googletest;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
